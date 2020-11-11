@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;500;900&display=swap');
+
+/* Font and Color */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Open Sans', serif;
+  color: #1d1b38;
+  background-color: #F7F9FC;
+  font-size:17px;
+  font-weight:300;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto', serif;
+  color:#336d88;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+h1 {
+  font-weight:900;
+  color: black;
+}
+
+h3 p {
+  text-decoration: underline;;
+}
+
+h2 em {
+  color: #272323;
+  font-size: 19px;
+  padding: 20px;
+}
+
+.card-gray li {
+  display: inline-block;
+  padding: 3px 15px 0px;
+}
+
+/* Image */
+
+#avatar {
+  border-radius: 50%;
+}
+
+#logo {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  padding: 10px 20px 0px;
+}
+
+a.social-link {
+  font-size: 35px;
+  padding: 10px;
+  text-decoration: none;
+  color: #272323;
+}
+
+a.social-link:hover {
+  color: #e79cc2;
+}
+
+/* Box */
+
+.container {
+  width: 900px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+}
+.card-pink{
+  background-color: #ffe8df;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  box-shadow: 7px 7px 5px grey;
+}
+
+.card-white {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  box-shadow: 7px 7px 5px grey;
+}
+
+.card-green {
+  background-color: #388db5;
+  margin: 20px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  box-shadow: 7px 7px 5px grey;
+}
+
+/* View */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
